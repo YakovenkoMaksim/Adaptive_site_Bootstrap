@@ -12,7 +12,8 @@ body {
 }
 
 .btn_md {
-    padding: 10px 30px;
+    padding: 13px 50px;
+    font-size: 13px;
 }
 
 .btn_lg {
@@ -30,7 +31,7 @@ header {
 
 nav {
     height: 94px;
-    line-height: 94px;
+    line-height: 88px;
 }
 
 .menu {
@@ -39,7 +40,8 @@ nav {
 
 .menu li {
     display: inline-block;
-    padding: 0 30px;
+    padding-left: 55px;
+    font-size: 13px;
 }
 
 .menu li a {
@@ -57,25 +59,28 @@ nav {
 .top_line {
     height: 1px;
     background-color: #e1e1e1;
+    margin: -4px -16px;
 }
 
 .logo {
-    padding: 35px;
+    padding: 33px 0;
 }
 
 .title_block {
     color: #ffffff;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 140px;
 }
 
 .title_block h1 {
-    font-size: 50px;
+    font-size: 65px;
     font-family: "RalewayBold", sans-serif;
-    margin-bottom: 50px;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .title_block p {
-    font-size: 18px;
-    margin-bottom: 50px;
+    font-size: 22px;
+    margin-bottom: 77px;
 }
