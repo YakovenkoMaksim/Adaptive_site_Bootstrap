@@ -153,3 +153,29 @@ nav {
     font-size: 14px;
     text-transform: uppercase;
 }
+
+/*Team section*/
+
+.team {
+    margin-top: 100px;
+}
+
+.team h4 {
+    font-size: 22px;
+    color: #2d3033;
+    padding-top: 17px;
+    margin-bottom: 5px;
+}
+
+.team span {
+    font-size: 13px;
+    color: #e84545;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.team p {
+    font-size: 14px;
+    color: #6c7279;
+    margin-top: 20px;
+}
