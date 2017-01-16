@@ -23,7 +23,7 @@ body {
 /*Header*/
 
 header {
-    height: 680px;
+    height: 745px;
     background-image: url("../img/header_bg.jpg");
     -webkit-background-size: cover;
     background-size: cover;
@@ -83,4 +83,26 @@ nav {
 .title_block p {
     font-size: 22px;
     margin-bottom: 77px;
+}
+
+/*Features*/
+
+.features {
+    padding-top: 120px;
+    text-align: center;
+}
+
+.features h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #2d3033;
+    padding-top: 13px;
+    padding-bottom: 8px;
+}
+
+.features p {
+    font-size: 14px;
+    font-weight: normal;
+    color: #6c7279;
+    padding-bottom: 45px;
 }
