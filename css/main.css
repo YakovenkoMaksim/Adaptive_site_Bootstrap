@@ -8,6 +8,11 @@ body {
     font-size: 16px;
     min-width: 320px;
 }
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
 
 /*Buttons*/
 
@@ -30,6 +35,13 @@ body {
     width: 275px;
     color: #fff;
     font-size: 13px;
+}
+
+.my_btn:focus,
+.btn_md:focus,
+.btn_lg:focus {
+    border: none;
+    outline: none;
 }
 
 /*Header section*/
@@ -66,7 +78,6 @@ nav {
 
 .menu li a:hover,
 .menu li a:focus {
-    text-decoration: none;
     color: #e1e1e1;
 }
 
@@ -121,7 +132,7 @@ nav {
     font-size: 14px;
     font-weight: normal;
     color: #6c7279;
-    padding-bottom: 45px;
+    padding-bottom: 64px;
 }
 
 /* End of Features section*/
@@ -171,7 +182,8 @@ nav {
 /*Team section*/
 
 .team {
-    margin: 100px 0;
+    margin: 50px 0;
+    padding: 50px 0;
 }
 
 .team h4 {
@@ -207,7 +219,6 @@ nav {
     width: 40px;
     text-align: center;
     padding-top: 10px;
-    text-decoration: none;
 }
 
 .fa-facebook:hover,
@@ -259,6 +270,7 @@ footer {
     padding: 60px 0 85px 0;
     color: #e5e5ea;
     text-align: center;
+    height: 250px;
 }
 
 .footer_block h5 {
@@ -281,10 +293,11 @@ footer {
 .footer_social_block a {
     color: #9092a7;
     border-color: #9092a7;
+    margin-left: 4px;
 }
 
 .footer_social_block a:hover {
-    color: #ffffff;
+    color: #fff;
 }
 
 .footer_social_block.fa-facebook:hover,
@@ -294,3 +307,36 @@ footer {
 }
 
 /*End of Footer section*/
+
+/*Copyright block*/
+
+.copyright_block {
+    text-align: center;
+    background-color: #313454;
+    height: 90px;
+}
+
+.copyright_block p {
+    color: #666771;
+}
+
+.copyright_block p:first-child {
+    padding-top: 32px;
+    font-size: 15px;
+    line-height: 2px;
+}
+
+.copyright_block a {
+    color: #b9b9c5;
+}
+
+.copyright_block a:hover {
+    color: #fff;
+}
+
+.copyright_block a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+/*End of copyright block*/
