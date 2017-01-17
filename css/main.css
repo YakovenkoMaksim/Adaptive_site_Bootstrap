@@ -99,6 +99,8 @@ nav {
     margin-bottom: 77px;
 }
 
+/*End of Navigation section*/
+
 /*Features section*/
 
 .features {
@@ -121,6 +123,8 @@ nav {
     color: #6c7279;
     padding-bottom: 45px;
 }
+
+/* End of Features section*/
 
 /*Work section*/
 
@@ -162,6 +166,8 @@ nav {
     font-weight: bold;
 }
 
+/*End of Work section*/
+
 /*Team section*/
 
 .team {
@@ -192,7 +198,7 @@ nav {
 .social_block {
     margin-top: 30px;
 }
-
+.footer_social_block a,
 .social_block a {
     color: #c6cacc;
     border: 2px solid #e8ecee;
@@ -201,7 +207,28 @@ nav {
     width: 40px;
     text-align: center;
     padding-top: 10px;
+    text-decoration: none;
 }
+
+.fa-facebook:hover,
+.fa-github:hover,
+.fa-linkedin-square:hover {
+    border-color: #c6cacc;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+}
+
+.fa-github:hover {
+    color: #323131;
+}
+
+.fa-linkedin-square:hover {
+    color: #0077b5;
+}
+
+/*End of Team section*/
 
 /*Download section*/
 
@@ -219,3 +246,51 @@ nav {
     font-size: 12px;
     font-weight: bold;
 }
+
+/*End of Download section*/
+
+/*Footer section*/
+
+footer {
+    background-color: #3a3e64;
+}
+
+.footer_block {
+    padding: 60px 0 85px 0;
+    color: #e5e5ea;
+    text-align: center;
+}
+
+.footer_block h5 {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.footer_block p {
+    color: #9092a7;
+    font-size: 14px;
+    padding: 5px 0;
+    line-height: 22px;
+}
+
+.footer_social_block {
+    margin-top: 20px;
+}
+
+.footer_social_block a {
+    color: #9092a7;
+    border-color: #9092a7;
+}
+
+.footer_social_block a:hover {
+    color: #ffffff;
+}
+
+.footer_social_block.fa-facebook:hover,
+.footer_social_block.fa-github:hover,
+.footer_social_block.fa-linkedin-square:hover {
+    border-color: #fff;
+}
+
+/*End of Footer section*/
