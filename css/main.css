@@ -318,11 +318,11 @@ footer {
 
 .copyright_block p {
     color: #666771;
+    font-size: 15px;
 }
 
 .copyright_block p:first-child {
     padding-top: 32px;
-    font-size: 15px;
     line-height: 2px;
 }
 
