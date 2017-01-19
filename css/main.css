@@ -30,7 +30,6 @@ a:focus {
 
 .btn_lg {
     margin-top: 36px;
-    /*padding: 12px 70px;*/
     height: 45px;
     width: 275px;
     color: #fff;
@@ -110,7 +109,7 @@ nav {
     margin-bottom: 77px;
 }
 
-/*End of Navigation section*/
+/*End of the Navigation section*/
 
 /*Features section*/
 
@@ -126,16 +125,17 @@ nav {
     padding-top: 13px;
     padding-bottom: 8px;
     font-weight: bold;
+    letter-spacing: -1px;
 }
 
 .features p {
     font-size: 14px;
     font-weight: normal;
     color: #6c7279;
-    padding-bottom: 64px;
+    padding: 0 17px 64px 17px;
 }
 
-/* End of Features section*/
+/* End of the Features section*/
 
 /*Work section*/
 
@@ -144,7 +144,7 @@ nav {
 }
 
 .works .col-md-3 {
-    padding: 0;
+    padding: 1px;
 }
 
 .image_wrap{
@@ -177,13 +177,18 @@ nav {
     font-weight: bold;
 }
 
-/*End of Work section*/
+/*End of the Work section*/
 
 /*Team section*/
 
 .team {
     margin: 50px 0;
     padding: 50px 0;
+}
+
+.team img {
+    height: 270px;
+    width: 270px;
 }
 
 .team h4 {
@@ -239,7 +244,7 @@ nav {
     color: #0077b5;
 }
 
-/*End of Team section*/
+/*End of the Team section*/
 
 /*Download section*/
 
@@ -258,7 +263,7 @@ nav {
     font-weight: bold;
 }
 
-/*End of Download section*/
+/*End of the Download section*/
 
 /*Footer section*/
 
@@ -306,7 +311,7 @@ footer {
     border-color: #fff;
 }
 
-/*End of Footer section*/
+/*End of the Footer section*/
 
 /*Copyright block*/
 
