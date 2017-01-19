@@ -17,12 +17,20 @@ $(document).ready(function() {
         $(".top_menu ul").slideToggle();
     });
 
-    $(".top_menu").find("a").click(function() {
+    $(".menu").find("a").click(function() {
 
-        if ($( window ).width() < 1024) {
-            $(".top_menu ul").slideToggle();
+        // if ($( window ).width() < 1024) {
+        //     $("#top_menu").slideToggle();
+        // }
+
+        if ($("#top_menu").class("collapse")) {
+            $("#top_menu").changeClass;
+        }
+        else {
+            $("#top_menu").slideToggle().attr("aria-expanded", true);
         }
     });
+
     $('a[href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
             var target = $(this.hash);

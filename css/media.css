@@ -76,7 +76,7 @@
 		background-color: #ffffff;
 	}
 
-	.menu a:hover {
+	.menu li a:hover {
 		color: #000;
 	}
 }
